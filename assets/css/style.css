@@ -1,0 +1,19 @@
+.container-fluid img{
+    height: 25px;
+ 
+    width: 108px;
+   
+}
+li.nav-item:hover {
+    border-bottom: 3px;
+}
+.footer{
+    background-color: rgba(0,0,0,0.1);
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+}
