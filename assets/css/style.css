@@ -17,3 +17,26 @@ li.nav-item:hover {
     text-decoration: none;
     color: black;
 }
+.top-navbar .nav-link {
+    margin-left: 8px;
+}
+.ms-info .card {
+    border: none;
+    border-radius: none;
+}
+.main-pics .card {
+    border: none;
+    border-radius: none;
+}
+.top-navbar .nav-link:focus, .nav-link:hover {
+   text-decoration-line: underline;
+}
+.card-body a{
+    color: #0067b8;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.card-body a:hover{
+    text-decoration-line: underline;
+}
