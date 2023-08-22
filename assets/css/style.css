@@ -20,6 +20,9 @@ li.nav-item:hover {
 .top-navbar .nav-link {
     margin-left: 8px;
 }
+.navbar-nav span{
+    margin-top: 10px;
+}
 .ms-info .card {
     border: none;
     border-radius: none;
@@ -39,4 +42,85 @@ li.nav-item:hover {
 }
 .card-body a:hover{
     text-decoration-line: underline;
+}
+.dropdown-menu {
+    border:none;
+    
+}
+ul.dropdown-menu {
+    width:1000px;
+    background-color:rgb(247, 245, 245);
+}
+li.parent-ul{
+    
+    display: flex;
+}
+li.parent-ul h2{
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 13px;
+}
+li.parent-ul ul{
+    margin: 0px 25px;
+    list-style-type: none;
+  
+}
+li.parent-ul ul li{
+    padding: 6px;
+}
+li.parent-ul ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    
+}
+li.parent-ul ul li a:hover{
+    text-decoration-line: underline;
+}
+@media screen and (max-width:991.8px) {
+    li.parent-ul{
+      display: block;
+    }
+    ul.dropdown-menu {
+        width:300px;
+    }
+}
+.social-icons{
+    position: relative;
+}
+.social-icons h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+.icons{
+    position: absolute;
+    left: 200px;
+    bottom:33px;     
+    
+}
+.icons ul{
+    display: flex;
+    
+    list-style-type: none;
+}
+.icons ul li {
+    margin: 0px 12px;
+}
+.icons ul li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 25%;
+   
+
+    
+}
+.icons ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.footer-end h3{
+    font-size: 15px;
 }
