@@ -124,3 +124,28 @@ li.parent-ul ul li a:hover{
 .footer-end h3{
     font-size: 15px;
 }
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color:rgba(239, 239, 240, .1)!important;
+}
+li.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 12px;
+    font-size: 12px;
+}
+li.nav-item span{
+    margin-bottom: 12px;
+}
+ul.space{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 12px;
+    margin: 16px;
+    margin-left: 550px;
+}
+ul.space li{
+    margin: 0px 10px;
+}
