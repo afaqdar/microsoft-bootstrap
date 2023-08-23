@@ -7,9 +7,6 @@
 li.nav-item:hover {
     border-bottom: 3px;
 }
-.footer{
-    background-color: rgba(0,0,0,0.1);
-}
 .footer ul{
     list-style-type: none;
 }
@@ -77,14 +74,6 @@ li.parent-ul ul li a{
 li.parent-ul ul li a:hover{
     text-decoration-line: underline;
 }
-@media screen and (max-width:1440px) {
-    li.parent-ul{
-      display: block;
-    }
-    ul.dropdown-menu {
-        width:300px;
-    }
-}
 .social-icons{
     position: relative;
 }
@@ -124,9 +113,13 @@ li.parent-ul ul li a:hover{
 .footer-end h3{
     font-size: 15px;
 }
+.footer{
+    --bs-bg-opacity: 1;
+    background-color:rgba(239, 239, 240, .4)!important;
+}
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
-    background-color:rgba(239, 239, 240, .1)!important;
+    background-color:rgba(239, 239, 240, .4)!important;
 }
 li.nav-item{
     display: flex;
@@ -138,14 +131,61 @@ li.nav-item{
 li.nav-item span{
     margin-bottom: 12px;
 }
-ul.space{
+ul.footer-icon{
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    font-size: 12px;
-    margin: 16px;
-    margin-left: 550px;
 }
-ul.space li{
-    margin: 0px 10px;
+ul.footer-icon li{
+    margin: 14px;
+    font-size: 10px;
+}
+.footer-last{
+    
+}
+.footer-last ul{
+    display: flex;
+}
+.footer-last ul li{
+    margin: 0px 12px;
+}
+.right-footer ul{
+    display: flex;
+    justify-content: right;
+    margin: 0px 20px;
+    
+}
+
+.right-footer li{
+    font-size: 14px;
+    margin-left: 18px;
+    list-style-type: none;
+}
+.right-footer li a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:1440px) {
+    li.parent-ul{
+      display: block;
+    }
+    ul.dropdown-menu {
+        width:300px;
+    }
+}
+@media screen and (max-width: 639) {
+    
+.right-footer ul{
+    display: none;
+    justify-content: unset;
+    margin: unset;
+    
+}
+
+.right-footer li{
+word-break: break-all;
+}
+.footer-last ul{
+    display: none;
+}
+
 }
