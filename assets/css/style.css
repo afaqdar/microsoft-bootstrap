@@ -1,3 +1,4 @@
+
 .container-fluid img{
     height: 25px;
  
@@ -164,6 +165,206 @@ ul.footer-icon li{
     text-decoration: none;
     color: black;
 }
+.carousel-indicators [data-bs-target] {
+
+    width: 15px;
+    height: 15px;
+    background-color: black;
+   
+    border-radius: 50%;
+}
+.carousel-indicators{
+    position:absolute;
+    top: 475px;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: black;
+}
+.image-section{
+    position: relative;
+}
+.carousel-control-next-icon {
+    right:690px;
+}
+.carousel-control-prev-icon {
+    left: 690px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+   
+    top: 475px;
+    position: absolute;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:576px){
+    
+    
+    .icon-linkedin2:before {
+        content: "";
+        
+    }
+    
+.icons{
+    position: unset;
+    left: 200px;
+    bottom:33px;     
+    
+}
+}
+@media screen and (max-width:576px){
+
+    
+    .carousel-control-next-icon {
+        right:210px;
+    }
+    .carousel-control-prev-icon {
+        left: 210px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        top: 182px;
+        position: absolute;
+        background-color: black;
+        padding: 20px;
+        border-radius: 50%;
+    }
+    .carousel-indicators{
+        position:absolute;
+        top: 182px;
+    }
+    }
+    
+@media screen and (max-width:576px){
+
+    
+    .carousel-control-next-icon {
+        right:200px;
+    }
+    .carousel-control-prev-icon {
+        left: 200px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        top: 180px;
+        position: unset;
+        background-color: black;
+        padding: 20px;
+        border-radius: 50%;
+    }
+    .carousel-indicators{
+        position:absolute;
+        top: 180px;
+    }
+    }
+@media screen and (min-width:575px) and (max-width:767px){
+
+    
+.carousel-control-next-icon {
+    right:300px;
+}
+.carousel-control-prev-icon {
+    left: 300px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    top: 240px;
+    position: absolute;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    position:absolute;
+    top: 240px;
+}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+
+    
+.carousel-control-next-icon {
+    right:390px;
+}
+.carousel-control-prev-icon {
+    left: 390px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    top: 315px;
+    position: absolute;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    position:absolute;
+    top: 315px;
+}
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    
+    .carousel-control-next-icon {
+        right:480px;
+    }
+    .carousel-control-prev-icon {
+        left: 480px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        top: 375px;
+        position: absolute;
+        background-color: black;
+        padding: 20px;
+        border-radius: 50%;
+    }
+    .carousel-indicators{
+        position:absolute;
+        top: 375px;
+    }
+    }
+    
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    
+    .carousel-control-next-icon {
+        right:480px;
+    }
+    .carousel-control-prev-icon {
+        left: 480px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        top: 375px;
+        position: absolute;
+        background-color: black;
+        padding: 20px;
+        border-radius: 50%;
+    }
+    .carousel-indicators{
+        position:absolute;
+        top: 375px;
+    }
+    }
+    
+@media screen and (min-width:1200px) and (max-width:1400px){
+
+    
+    .carousel-control-next-icon {
+        right:600px;
+    }
+    .carousel-control-prev-icon {
+        left: 600px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        top: 440px;
+        position: absolute;
+        background-color: black;
+        padding: 20px;
+        border-radius: 50%;
+    }
+    .carousel-indicators{
+        position:absolute;
+        top: 440px;
+    }
+    }
 @media screen and (max-width:1440px) {
     li.parent-ul{
       display: block;
@@ -172,7 +373,7 @@ ul.footer-icon li{
         width:300px;
     }
 }
-@media screen and (max-width: 639) {
+@media screen and (max-width: 639px) {
     
 .right-footer ul{
     display: none;
