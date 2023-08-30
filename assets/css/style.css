@@ -154,13 +154,19 @@ ul.footer-icon li{
 .right-footer ul{
     display: flex;
     justify-content: right;
-    margin: 0px 20px;
+    margin: 0px 13px;
     
 }
-
+.nav-item a.nav-link{
+    margin-top: 12px;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+    margin-top: 12px;
+}
 .right-footer li{
     font-size: 14px;
-    margin-left: 18px;
+    margin-left: 12px;
     list-style-type: none;
 }
 .right-footer li a{
@@ -227,3 +233,55 @@ li.parent-ul{
     display: block;
 }
 }
+
+@media screen and (max-width:991.98px) {
+    
+    ul.dropdown-menu {
+        width:300px;
+        background-color:rgb(247, 245, 245);
+    }
+    
+    li.parent-ul{
+        
+        display: block;
+    }
+    }
+    @media screen and (max-width:767.98px) {
+    
+        
+    ul.dropdown-menu {
+        width:100px;
+        background-color:rgb(247, 245, 245);
+    }
+    
+    li.parent-ul{
+        
+        display: block;
+    }
+    }
+    @media screen and (min-width:576px) and (max-width:767.98px){
+  
+.navbar-nav .dropdown-menu {
+    position: static;
+    margin-bottom: 20px;
+}        
+    }
+
+    @media screen and (max-width:575.98px) {
+              
+.right-footer ul{
+    display:block;
+    
+    justify-content:unset ;
+    margin: 8px 0px;
+    
+}
+
+.right-footer li{
+    font-size: 14px;
+    margin-left: 12px;
+    list-style-type: none;
+    word-break: break-all;
+}
+
+    }
